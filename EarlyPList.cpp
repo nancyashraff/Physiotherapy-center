@@ -43,6 +43,28 @@ Patient* EarlyPList::reschedule()
         }
         currentIndex++;
     }
-
+    ResceduleNumber++;
     return rescheduledPatient;
 }
+
+void EarlyPList:: enqueue(const T& data, int priority)
+{
+        EarlyNumber++;
+        PriQueue::enqueue(const T& data, int priority);
+}
+
+flaot EarlyPList:: getReschedulePercent(int &LateNumber)
+{
+    return ((flaot)ResceduleNumber*100)/(EarlyNumber + LateNumber);
+}
+
+flaot EarlyPList::getEarlyPercent(int &LateNumber)
+{
+    return ((flaot)EarlyNumber*100)/(EarlyNumber + LateNumber);
+}
+
+int EarlyPList::GetEarlyNumber()
+{
+    return EarlyNumber;
+}
+

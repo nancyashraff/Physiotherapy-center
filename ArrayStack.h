@@ -63,20 +63,19 @@ public:
 		top = S.top;
 	}
 
-        int getCount() const
-        {
-	        return top + 1;
-        }
+    int getCount() const
+    {
+	    return top + 1;
+    }
 
-        void print_stack() const
-        {
-	        for (int i = top; i >= 0; i--)
+    void print_stack() const
+    {
+	    for (int i = top; i >= 0; i--)
 	{
 		cout << items[i] << " ";
 	}
 	  cout <<endl;
 }
-
 
 }; // end ArrayStack
 
