@@ -1,5 +1,5 @@
-#include"iostream"
-using namespace std;
+#pragma once
+#include <iostream>
 
 template < typename T>
 class Node
