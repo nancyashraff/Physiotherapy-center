@@ -17,7 +17,7 @@ class Scheduler {
 private:
     // Core Patient Lists
     LinkedQueue<Patient*> ALLPatients;
-    EarlyPList EarlyPatients;
+    PriQueue<Patient*> EarlyPatients;  
     PriQueue<Patient*> LatePatients;
 
     // Waiting Lists for Treatments
