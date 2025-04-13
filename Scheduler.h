@@ -1,15 +1,18 @@
 #pragma once
+
 #include "LinkedQueue.h"
 #include "PriQueue.h"
 #include "ArrayStack.h"
-#include "EarlyPList.h"
 #include "EU_WaitList.h"
 #include "X_WaitList.h"
-// #include "patient.h"
-// #include "Resource.h"
+#include "EarlyPList.h"
+
+class Patient;  // Forward declaration
+class Treatment;  // Forward declaration
+class Resource;  // Forward declaration
+
 
 using namespace std;
-
 class Scheduler {
 private:
     // Core Patient Lists
