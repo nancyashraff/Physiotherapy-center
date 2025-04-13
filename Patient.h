@@ -1,10 +1,11 @@
 #ifndef PATIENT_H
 #define PATIENT_H
-#include"Scheduler.h"
-#include "LinkedQueue.h"
-#include "Treatment.h"
 
-class Treatment;
+#include "LinkedQueue.h"  // Required for template instantiation
+#include "Treatment.h"    // Required for TreatmentType
+
+class Scheduler;  // Forward declaration
+class Treatment;  // Forward declaration
 
 enum class PatientType { NORMAL, RECOVERING };
 enum class PatientStatus { IDLE, ERLV, LATE, WAIT, SERV, FNSH };
