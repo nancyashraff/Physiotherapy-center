@@ -1,0 +1,28 @@
+PID	PType	PT	VT	FT	WT	TT	Cancel	Resc
+P4	N	61	2	72	0	11	N	T
+P8	R	54	8	61	0	7	N	T
+P10	N	10	15	40	13	10	N	N
+P12	N	10	15	36	13	6	N	N
+P11	N	10	15	29	2	10	N	N
+P9	N	10	15	22	2	3	N	N
+P1	N	3	2	16	3	10	N	N
+P2	N	3	2	16	5	8	N	N
+P5	R	12	3	18	0	6	N	T
+P3	N	3	2	11	0	8	N	N
+P7	R	6	5	11	2	3	N	N
+P6	N	6	5	9	0	3	N	N
+Total number of timesteps = 72
+Total number of all, N, and R patients = 12, 9, 3
+Average total waiting time for all, N, and R patients = 3.33333, 4.22222, 0.666667
+Average total treatment time for all, N, and R patients = 7.08333, 7.66667, 5.33333
+Percentage of patients of an accepted cancellation (%) = 0 %
+Percentage of patients of an accepted rescheduling (%) = 25 %
+Percentage of early patients (%) = 66.6667 %
+Percentage of late patients (%) = 33.3333 %
+Average late penalty = 2
+
+Bonus Modifications:
+Percentage of interrupt for All, Electro & Ultrasonic devices (%) = 58.3333 %, 58.3333 %, 0 %
+Devices Percentage of Failure:
+Percentage of Free failure for All, Electro & Ultrasonic devices (%) = 50 %, 100 %, 0 %
+Percentage of Busy failure for All, Electro & Ultrasonic devices (%) = 50 %, 100 %, 0 %

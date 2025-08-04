@@ -1,0 +1,16 @@
+test1:
+
+U fail / maintainance + main functions
+
+test2:
+
+E fail / maintainance + main functions
+
+test3:
+
+X-Therapy tools + main functions
+U fail / maintainance + main functions
+U fail / maintainance + main functions
+
+
+test3 handles most of the cases.

@@ -1,0 +1,46 @@
+test1:
+
+Accepted rescheduling operation.
+Accepted and not accepted cancel operations.
+X_Room capacity > 1 and going available, full, and available again.
+
+test2:
+
+tests normal flow and different durations of elements in each list.
+How the treatment order is handled in N-patients and R-patients.
+Available device resources, becoming unavailable, then available.
+
+test3:
+
+
+Accepted rescheduling operation.
+Accepted and not accepted cancel operations.
+How the treatment order is handled in N-patients and R-patients.
+tests normal flow and different durations of elements in each list.
+Early and Late patients with different penalties.
+Available device resources, becoming unavailable, then available.
+X_Room capacity > 1 and going available, full, and available again.
+
+test4:
+
+Accepted and not accepted cancel operations.
+Accepted rescheduling operation.
+
+
+test5:
+
+Accepted rescheduling operation.
+Accepted and not accepted cancel operations.
+How the treatment order is handled in N-patients and R-patients.
+tests normal flow and different durations of elements in each list.
+Early and Late patients with different penalties.
+Available device resources, becoming unavailable, then available.
+X_Room capacity > 1 and going available, full, and available again.
+
+test6:
+
+How the treatment order is handled in N-patients and R-patients.
+
+
+
+test3 covers the most cases.
